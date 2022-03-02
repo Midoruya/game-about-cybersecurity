@@ -682,4 +682,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/main.unity
   - Assets/level_one.unity
-  playerPath: C:/Users/wladi/My project (1)/build/My project (1).exe
+  playerPath: C:/Users/wladi/Desktop/game-about-cybersecurity/Buid/game-about-cybersecurity.exe
