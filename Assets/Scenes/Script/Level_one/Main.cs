@@ -224,7 +224,7 @@ public class Main : MonoBehaviour
         time_to_complete_minute *= 60;
         terminal_panel.text = "";
         input_command.onEndEdit.AddListener(end_input_command);
-        int untrusted_program_count = Random.Range(1, 5);
+        int untrusted_program_count = Random.Range(3, 8);
         for (int i = 0; i < untrusted_program_count; i++)
         {
             string untrusted_ip = $"{get_random_ip()}";
@@ -243,7 +243,19 @@ public class Main : MonoBehaviour
 
         if (time_to_complete_minute <= 10)
         {
-            end_level.quality_of_execution = 0;
+            int real_block_untrusted_connect = 0;
+            int fake_block_untrusted_connect = 0;
+            foreach (var block in ip_block_list)
+            {
+                string[] block_ip = block.Split(':');
+                if (untrusted_connect.TryGetValue(block_ip[0], out _))
+                {
+                    real_block_untrusted_connect++;
+                    continue;
+                }
+                fake_block_untrusted_connect++;
+            }
+            end_level.quality_of_execution = (100 / (untrusted_connect.Count + Random.Range(5, 15)) * real_block_untrusted_connect) - (fake_block_untrusted_connect * 3);
             end_level.this_canvas.gameObject.SetActive(true);
             end_level.this_canvas.enabled = true;
             this_canvas.gameObject.SetActive(false);

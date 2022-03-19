@@ -336,6 +336,17 @@ MonoBehaviour:
   - command: clear
     description: Clearing the terminal
     max_argument: 1
+  - command: kill
+    description: This command is used to force the termination of processes. You
+      need to enter kill <id>
+    max_argument: 2
+  - command: mkdir
+    description: 'Creates a new folder in the current terminal folder or in the specified
+      folder: mkdir <path>'
+    max_argument: 2
+  - command: rmdir
+    description: Deletes the specified folder. rmdir <path>
+    max_argument: 2
   console_computer_title: arch@root:~$
   end_level: {fileID: 1915516605}
   normal_process:
@@ -356,6 +367,8 @@ MonoBehaviour:
   - ShareX
   - SQL Server
   - Registry
+  - Yandex
+  - You Phone
   alert_process:
   - svhosts
   - svchost1
@@ -364,6 +377,10 @@ MonoBehaviour:
   - njrat
   - cryptor
   - miner
+  - rootkit
+  - nvudua
+  - AsxText
+  - registr
 --- !u!1 &203470610
 GameObject:
   m_ObjectHideFlags: 0
