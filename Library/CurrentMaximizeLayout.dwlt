@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 5948
+  controlID: 586
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 5949
+  controlID: 540
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 5950
+  controlID: 517
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c0dbffffd6dbffff58eefffff2f7ffff0cf8ffff0ef8ffff12f8ffffa6f8ffffc0f8ffff7af9ffff7ef9ffff64fbffffb0590000ce590000c861000044670000a2670000
+      m_ExpandedIDs: 58f2ffff64fbffff2c430000a8560000c6560000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -309,9 +309,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.0235, y: 0.0478, z: 0}
+    m_Target: {x: -0.04140091, y: 0.05139923, z: 0}
     speed: 2
-    m_Value: {x: -0.0235, y: 0.0478, z: 0}
+    m_Value: {x: -0.04140091, y: 0.05139923, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -362,9 +362,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 34.075184
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 34.075184
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -568,22 +568,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Script/Level_one
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Script/Level_one
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\wladi\Desktop\game-about-cybersecurity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca520000
-    m_LastClickedID: 21194
-    m_ExpandedIDs: 000000007043000072430000744300007e43000000ca9a3b
+    m_SelectedIDs: 2a440000
+    m_LastClickedID: 17450
+    m_ExpandedIDs: 000000002a4400002c4400002e4400003044000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -611,7 +611,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007043000072430000744300007e43000000ca9a3b
+    m_ExpandedIDs: 000000002a4400002c4400002e4400003044000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -636,9 +636,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44670000
-    m_LastClickedInstanceID: 26436
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: a0560000
+    m_LastClickedInstanceID: 22176
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a055000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -800,7 +800,7 @@ MonoBehaviour:
     m_CachedPref: -151
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 26436
+  m_LastInspectedObjectInstanceID: 22176
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
